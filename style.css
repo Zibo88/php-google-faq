@@ -1,0 +1,84 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+/* Common */
+
+.flex{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+/* header */
+
+header{
+    height: 120px;
+    width: 100%;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.logo{
+    width: 130px;
+}
+
+.header-menu-item, .logo{
+    padding: 1rem 1.3rem 1rem 0.8rem;
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header-menu-item{
+    color: black;
+    padding-bottom: 10px;
+    
+}
+
+.link:last-child .header-menu-item{
+    color: blue;
+    border-bottom: 3px solid blue;
+    line-height: 23px;
+}
+
+/* MAin */
+
+main{
+    margin: 2rem 0 0 0;
+    
+}
+
+.faq-container{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+
+h2{
+    margin: 20px 0;
+    font-size: 35px;
+}
+
+.answer-list-item{
+    margin: 10px 0;
+    font-size: 20px;
+}
