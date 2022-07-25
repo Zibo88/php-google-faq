@@ -106,8 +106,7 @@
                                     <?php echo $element['answer-5'] ?>
                                 </li>
                             </ul>
-                        <?php } ?>
-                        
+                        <?php } ?>  
                     </li>
                 <?php }?> 
             </ul>  
